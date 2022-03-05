@@ -46,8 +46,7 @@ public class KMAAbstractList<E> implements KMAList<E> {
 
 	@Override
 	public boolean contains(Object o) {
-		// TODO Auto-generated method stub
-		return false;
+		return this.indexOf(o) >= 0;
 	}
 
 	@Override
@@ -58,7 +57,6 @@ public class KMAAbstractList<E> implements KMAList<E> {
 
 	@Override
 	public Object[] toArray() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
