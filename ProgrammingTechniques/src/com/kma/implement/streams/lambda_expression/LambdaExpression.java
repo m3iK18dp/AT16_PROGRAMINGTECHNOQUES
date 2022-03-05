@@ -24,5 +24,6 @@ public class LambdaExpression {
 		};
 		// Bỏ luôn return + {}
 		Comparator<Employee> byNameLambda3 = (a, b) -> a.getName().compareTo(b.getName());
+
 	}
 }
